@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Interest Calculator JS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-input">
+        <div>
+          <label>Principal($):</label>
+          <input type="number" class="principal" value="1000" />
+        </div>
+        <div>
+          <label>Rate:</label>
+          <input type="number" class="rate" value="5" />
+        </div>
+      </div>
+      <div class="second-input">
+        <div>
+          <label>Time:</label>
+          <input type="number" class="time" value="1" />
+        </div>
+        <select name="payment" class="payment">
+          <option value="year">Year</option>
+          <option value="month">Month</option>
+        </select>
+      </div>
+      <button class="btn">Calculate</button>
+      <div class="result-container"></div>
+    </div>
+  </body>
+</html>
